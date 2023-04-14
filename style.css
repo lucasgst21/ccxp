@@ -1,0 +1,93 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  background-color: #ffd900;
+  padding: 0%;
+}
+
+header img {
+  padding: 20px;
+  width: 150px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+
+#parteRoxa {
+  background-color: #514988;
+  color: #ffd900;
+  font-size: 20px;
+  text-align: center;
+  width: 730px;
+  height: 450px;
+}
+
+#parteRoxa p {
+  color: white;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+#timerInteiro {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.timer {
+  display: grid;
+  grid-auto-flow: column;
+  color: #514988;
+}
+
+#timerInteiro h1 {
+  font-size: 50px;
+}
+
+button {
+  background-color: #514988;
+  width: 330px;
+  border-radius: 15px;
+  border: none;
+  height: 100px;
+  color: white;
+  font-size: 150%;
+  margin: auto;
+}
+
+button:hover {
+  background-color: #514988;
+  cursor: pointer;
+  color: #ffd900;
+}
+
+h3 {
+  color: #ffd900;
+}
+
+#corRosa {
+  color: #e33881;
+}
+
+.auau {
+  text-align: center;
+}
+
+.timer h1 {
+  margin: 0%;
+}
+
+#imagens {
+  width: 65%;
+  margin-bottom: 30px;
+}
